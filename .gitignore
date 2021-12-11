@@ -3,3 +3,4 @@ dmenu_*
 *.rej
 *.o
 stest
+dmenu
