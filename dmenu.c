@@ -721,7 +721,7 @@ setup(void)
 	swa.border_pixel = 0;
 	swa.colormap = cmap;
 	swa.event_mask = ExposureMask | KeyPressMask | VisibilityChangeMask;
-	win = XCreateWindow(dpy, parentwin, x, y, mw, mh, CWBorderWidth,
+	win = XCreateWindow(dpy, parentwin, x, y, mw, mh, border_width,
 	                    depth, CopyFromParent, visual,
 	                    CWOverrideRedirect | CWBackPixel | CWBorderPixel | CWColormap | CWEventMask, &swa);
 	XSetClassHint(dpy, win, &ch);
