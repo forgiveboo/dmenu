@@ -1,0 +1,5 @@
+dmenu*
+*.orig
+*.rej
+*.o
+stest
